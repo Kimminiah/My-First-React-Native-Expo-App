@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { StyleSheet, View } from "react-native";
-import Header from "./components/Header";
-import Skills from "./components/Skills";
-import Contact from "./components/Contact";
-import Projects from "./components/Projects";
-import ThemeToggle from "./components/ThemeToggle";
-import { lightTheme, darkTheme } from "./constants/themes";
+import Header from "./MobilePortfolio/components/Header";
+import Skills from "./MobilePortfolio/components/Skills";
+import Contact from "./MobilePortfolio/components/Contact";
+import Projects from "./MobilePortfolio/components/Projects";
+import ThemeToggle from "./MobilePortfolio/components/ThemeToggle";
+import { lightTheme, darkTheme } from "./MobilePortfolio/constants/themes";
 
 export default function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
